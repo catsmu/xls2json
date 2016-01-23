@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from xlrd import open_workbook
 import json
 import getopt
