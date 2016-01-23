@@ -10,7 +10,9 @@ These assumptions include the following:
 The XLS data incudes three descriptor fields occuping the first three rows of data in a worbook:
 
 Row 1: Comment describing the intent of the data field
+
 Row 2: Defines the underlying data type (string, int float, bool, or "key" - which is currently a fancy way of saying "string")
+
 Row 3: Defines the name to be used for the underlying data type in the JSON/POCO.
 
 Optionally, xls2json can generate a C# POCO that can be used to load the JSON data; as currently implemented, this assumes a base class of type Data, which is not directly provided.
